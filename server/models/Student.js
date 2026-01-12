@@ -7,4 +7,4 @@ const studentSchema = new mongoose.Schema({
     email: String,
 }, { timestamps: true });
 
-module.experts = mongoose.model('Student', studentSchema)
+module.exports = mongoose.model('Student', studentSchema)
